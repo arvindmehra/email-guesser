@@ -1,24 +1,54 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+  
 
-Things you may want to cover:
+# Email Guesser App
+This Ruby on Rails with React app analyzes email formats based on a given dataset. It allows users to submit first names, last names, and domains to determine the corresponding email format used within the specified domain.
 
-* Ruby version
 
-* System dependencies
+## Built With
 
-* Configuration
+- Ruby on Rails 7.1.3
+- Ruby 3.2.2
+- NVM 18.18.1
+- React (Vite)
 
-* Database creation
+## Running the Rails app
 
-* Database initialization
+```bash
+cd your-folder
+Download the repo
+cd path_to_repo
+bundle
+rails s
+```
+## Running the React app
 
-* How to run the test suite
+```bash
+cd path_to_repo/client
+npm run start
+```
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+## Running Tests
 
-* ...
+  
+
+To run tests, run the following command
+
+
+```bash
+
+rspec spec --format documentation
+
+```
+
+## Scope of Improvement
+
+
+- More readable and refactored code on React app
+
+- More test coverage with edge cases on both Rails and React
+
+- Swagger documentation of APIs
+
+  

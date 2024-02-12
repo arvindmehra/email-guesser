@@ -1,14 +1,14 @@
-import { useState } from 'react'
-import PostsList from './components/PostsList'
+import React from 'react';
+import EmailFinder from './components/EmailFinder';
 import './App.css'
 
 function App() {
-
   return (
-    <>
-      <PostsList></PostsList>
-    </>
-  )
+    <div className="App">
+      <EmailFinder />
+    </div>
+  );
 }
 
-export default App
+export default App;
+
